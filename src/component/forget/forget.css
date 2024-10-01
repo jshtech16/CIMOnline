@@ -1,0 +1,15 @@
+.forget-container {
+    border-radius: 40px;
+    padding: 60px 40px !important;
+    margin-top: 75px;
+}
+
+.forget-container input {
+    border: none !important;
+    border-bottom: 1px solid var(--gray) !important;
+}
+
+.forget-container button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

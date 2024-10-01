@@ -1,0 +1,318 @@
+.work-container {
+    margin-top: 75px;
+}
+
+.work-content {
+    padding: 100px 50px 100px 50px;
+    position: relative;
+}
+
+.progress-bar {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: calc(50% - 400px);
+    top: 100px;
+    background:
+        radial-gradient(closest-side, #124759 99.6%, transparent 80% 100%, #124759 0),
+        conic-gradient(#D0EBEC calc(var(--progress-value) * 1%), #124759 0);
+    animation: css-progress 15s 1 forwards;
+    animation-timing-function: linear;
+}
+
+progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+@property --progress-value {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 0;
+}
+
+@keyframes css-progress {
+    to {
+        --progress-value: 100;
+    }
+}
+
+.work-img-circle {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+.work-title {
+    height: 800px;
+}
+
+.work-title p {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    z-index: 11;
+}
+
+.worksImg1 {
+    position: absolute;
+    left: calc(50% + 160px);
+    top: 120px;
+    width: 50px;
+    z-index: 1;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 1s forwards;
+}
+
+.worksImg2 {
+    position: absolute;
+    left: calc(50% + 280px);
+    top: 300px;
+    width: 140px;
+    z-index: 1;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 2.5s forwards;
+}
+
+.worksImg3 {
+    position: absolute;
+    left: calc(50% + 370px);
+    top: 470px;
+    z-index: 1;
+    width: 50px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 3.7s forwards;
+}
+
+.worksImg4 {
+    position: absolute;
+    left: calc(50% + 255px);
+    top: 670px;
+    z-index: 1;
+    width: 180px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 5s forwards;
+}
+
+.worksImg5 {
+    position: absolute;
+    left: calc(50% + 160px);
+    top: 830px;
+    z-index: 1;
+    width: 50px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 6.3s forwards;
+}
+
+.worksImg6 {
+    position: absolute;
+    left: calc(50% - 300px);
+    top: 830px;
+    z-index: 1;
+    width: 250px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 8.5s forwards;
+}
+
+.worksImg7 {
+    position: absolute;
+    left: calc(50% - 360px);
+    top: 700px;
+    z-index: 1;
+    width: 50px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 9.8s forwards;
+}
+
+.worksImg8 {
+    position: absolute;
+    left: calc(50% - 500px);
+    top: 460px;
+    z-index: 1;
+    width: 200px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 11.3s forwards;
+}
+
+.worksImg9 {
+    position: absolute;
+    left: calc(50% - 380px);
+    top: 300px;
+    z-index: 1;
+    width: 50px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 12.3s forwards;
+}
+
+.worksImg10 {
+    z-index: 1;
+    width: 140px;
+    position: absolute;
+    left: calc(50% - 270px);
+    top: 130px;
+    opacity: 0.5;
+    animation: workOpacityAnim 0s linear 13.5s forwards;
+}
+
+@keyframes workOpacityAnim {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 991px) {
+    .progress-bar {
+        width: 500px;
+        height: 500px;
+        left: calc(50% - 250px);
+        top: 50px
+    }
+
+    .work-img-circle {
+        width: 500px;
+        height: 500px;
+    }
+
+    .work-title {
+        height: 500px;
+    }
+
+    .work-title p {
+        font-size: 30px;
+    }
+
+    .worksImg1 {
+        left: calc(50% + 100px);
+        top: 60px;
+    }
+
+    .worksImg2 {
+        left: calc(50% + 140px);
+        top: 170px;
+    }
+
+    .worksImg3 {
+        left: calc(50% + 220px);
+        top: 280px;
+    }
+
+    .worksImg4 {
+        left: calc(50% + 130px);
+        top: 390px;
+    }
+
+    .worksImg5 {
+        left: calc(50% + 100px);
+        top: 490px;
+    }
+
+    .worksImg6 {
+        left: calc(50% - 240px);
+        top: 485px;
+    }
+
+    .worksImg7 {
+        left: calc(50% - 235px);
+        top: 410px;
+    }
+
+    .worksImg8 {
+        left: calc(50% - 340px);
+        top: 280px;
+    }
+
+    .worksImg9 {
+        left: calc(50% - 250px);
+        top: 170px;
+    }
+
+    .worksImg10 {
+        left: calc(50% - 200px);
+        top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .progress-bar {
+        width: 300px;
+        height: 300px;
+        left: calc(50% - 150px);
+    }
+
+    .work-img-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .work-title {
+        height: 300px;
+    }
+
+    .work-title p {
+        font-size: 15px;
+        width: 30%;
+    }
+
+    .worksImg1 {
+        left: calc(50% + 70px);
+        top: 60px;
+        width: 25px;
+    }
+    
+    .worksImg2 {
+        left: calc(50% + 90px);
+        top: 120px;
+        width: 70px;
+    }
+    
+    .worksImg3 {
+        left: calc(50% + 135px);
+        top: 190px;
+        width: 25px;
+    }
+    
+    .worksImg4 {
+        left: calc(50% + 80px);
+        top: 260px;
+        width: 90px;
+    }
+    
+    .worksImg5 {
+        left: calc(50% + 50px);
+        top: 320px;
+        width: 25px;
+    }
+    
+    .worksImg6 {
+        left: calc(50% - 120px);
+        top: 320px;
+        width: 125px;
+    }
+    
+    .worksImg7 {
+        left: calc(50% - 140px);
+        top: 270px;
+        width: 25px;
+    }
+    
+    .worksImg8 {
+        left: calc(50% - 180px);
+        top: 190px;
+        width: 100px;
+    }
+    
+    .worksImg9 {
+        left: calc(50% - 145px);
+        top: 120px;
+        width: 25px;
+    }
+    
+    .worksImg10 {
+        left: calc(50% - 120px);
+        top: 60px;
+        width: 70px;
+    }
+}

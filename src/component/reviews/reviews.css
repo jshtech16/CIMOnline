@@ -1,0 +1,15 @@
+.reviews-container {
+    border-radius: 40px;
+    padding: 60px 40px !important;
+    margin-top: 75px !important;
+}
+
+.reviews-container .modal textarea,
+.reviews-container .modal textarea:hover,
+.reviews-container .modal textarea:active,
+.reviews-container .modal textarea:focus,
+.reviews-container .modal textarea:focus-visible {
+    outline: none;
+    padding: 5px 10px;
+    border-color: #ced4da !important;
+}

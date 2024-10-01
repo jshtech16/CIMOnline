@@ -1,0 +1,195 @@
+:root {
+  --primary: #124759;
+  --secondary: #D0EBEC;
+  --gray: #757575;
+  --white: #ffffff;
+  --blue: #64bbc2;
+}
+
+.row,
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* background */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+/* Text color */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+/* Button */
+button {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary);
+  border-radius: 60px;
+  font-size: 20px;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: var(--blue);
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+/* Font */
+p {
+  margin: 0px !important;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 68px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 58px;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}
+
+/* width */
+.w-fit {
+  width: fit-content;
+}
+
+.w-min-0 {
+  min-width: 0px !important;
+}
+
+@media (max-width: 991px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+/* border */
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
+/* cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* input */
+input[type="text"],
+input[type="text"]:hover,
+input[type="text"]:active,
+input[type="text"]:focus {
+  border: 1px solid #ced4da;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.form-select,
+.form-select:hover,
+.form-select:active,
+.form-select:focus,
+.form-select:focus-visible {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.radio-btn,
+.radio-btn:focus,
+.radio-btn:active,
+.radio-btn:hover,
+.radio-btn:focus-visible {
+  width: 15px !important;
+  height: 15px !important;
+  box-shadow: none;
+}
+
+.radio-btn:checked {
+  background-color: var(--primary);
+}
+
+.radio-btn:not(:checked) {
+  background: transparent;
+}
+
+input[type="file"],
+input[type="file"]:active,
+input[type="file"]:focus,
+input[type="file"]:focus-visible,
+input[type="file"]:hover {
+  box-shadow: none;
+  border-color: rgb(199, 199, 199);
+}

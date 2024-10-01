@@ -1,0 +1,10 @@
+.home-aboutus-container {
+    margin-top: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.home-aboutus-content {
+    border-radius: 40px;
+    padding: 60px 40px !important;
+}

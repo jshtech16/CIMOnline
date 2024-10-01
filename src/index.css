@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Acumin Pro';
+  src: url(./assets/font/acumin-pro-cufonfonts/Acumin-RPro.otf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/font/Inter-font/Inter\ Desktop/Inter-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Neuropol X';
+  src: url(./assets/font/neuropol_x/neuropol\ x\ rg.otf);
+}
+
+/* Custom */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Acumin Pro';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

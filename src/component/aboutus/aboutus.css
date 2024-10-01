@@ -1,0 +1,38 @@
+.aboutus-container {
+  border-radius: 40px;
+  padding: 60px 40px;
+  background-color: var(--secondary);
+  margin-top: 75px;
+}
+
+.aboutus-container .aboutus-description {
+  padding-left: 75px;
+}
+
+@media (max-width: 991px) {
+  .aboutus-container .aboutus-description {
+    padding-left: 0px;
+  }
+}
+
+.embrace-container {
+  border-radius: 40px;
+  padding: 60px 40px 80px 40px !important;
+  margin-top: 75px !important;
+}
+
+.embrace-container .embrace-indicators-slide {
+    position: absolute;
+}
+
+.aboutus-card-container {
+    border-radius: 40px;
+    padding: 60px 40px;
+    margin-top: 75px;
+}
+
+.aboutus-account-container {
+    border-radius: 40px;
+    padding: 75px 40px !important;
+    margin-top: 75px !important;
+}

@@ -1,0 +1,17 @@
+.adminsidebar-container {
+  background-color: var(--secondary);
+  width: 250px;
+  padding: 30px 40px 120px 40px;
+}
+
+.adminTable-container {
+  width: calc(100% - 250px);
+  padding: 40px;
+  padding-bottom: 100px;
+}
+
+.adminTable-container textarea {
+  outline: none;
+  padding: 5px 10px;
+  border-color: #ced4da !important;
+}

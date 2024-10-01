@@ -1,0 +1,33 @@
+.o365-carousel-container {
+    position: relative;
+    margin-top: -2px;
+}
+
+.o365-carousel-scroll {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.o365-carousel-content {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    width: 550px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .o365-carousel-content {
+        width: 300px;
+        bottom: 20px;
+        left: 20px;
+        font-size: 25px !important;
+    }
+
+    .o365-carousel-scroll {
+        display: none;
+    }
+}

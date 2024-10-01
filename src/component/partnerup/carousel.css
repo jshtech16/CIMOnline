@@ -1,0 +1,26 @@
+.partner-carousel {
+    height: 900px;
+    background: url(../../../public/assets/img/partner-carousel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.partner-text {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 300px;
+}
+
+.partner-scroll {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+@media (max-width: 991px) {
+    .partner-scroll {
+        display: none;
+    }
+}

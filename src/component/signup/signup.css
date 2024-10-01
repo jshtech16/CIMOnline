@@ -1,0 +1,14 @@
+.signup-container {
+    border-radius: 40px;
+    padding: 60px 40px !important;
+    margin-top: 75px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="text"]:focus,
+.signup-container input[type="text"]:focus-visible,
+.signup-container input[type="text"]:active,
+.signup-container input[type="text"]:hover {
+    border: none;
+    border-bottom: 1px solid var(--gray);
+}

@@ -1,0 +1,9 @@
+footer {
+  position: relative;
+}
+
+.footer-container {
+  border-radius: 40px 40px 0px 0px;
+  background-color: var(--primary);
+  padding-top: 50px;
+}

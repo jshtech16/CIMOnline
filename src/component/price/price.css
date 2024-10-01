@@ -1,0 +1,44 @@
+.price-content {
+    padding-top: 60px;
+}
+
+.price-container>div {
+    width: 30%;
+}
+
+.form-check-input {
+    width: 74px !important;
+    height: 33px;
+    background-color: #124759;
+}
+
+@media (max-width: 1400px) {
+    .price-container {
+        flex-direction: column;
+    }
+
+    .price-container>div {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .price-container>div {
+        width: 100%;
+    }
+}
+
+.price-content input[type="checkbox"],
+.price-content input[type="checkbox"]:focus,
+.price-content input[type="checkbox"]:active,
+.price-content input[type="checkbox"]:focus-visible,
+.price-content input[type="checkbox"]:hover {
+    outline: none;
+    box-shadow: none;
+}
+
+.price-container .price-chd-container {
+    border-radius: 40px;
+}

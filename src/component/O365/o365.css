@@ -1,0 +1,29 @@
+.ms-container {
+    border-radius: 40px;
+    padding: 40px 40px 60px 40px !important;
+    margin-top: 75px !important;
+}
+
+.msdetail-container {
+    border-radius: 40px;
+    padding: 40px !important;
+    margin-top: 75px !important;
+}
+
+.mergetool-container {
+    border-radius: 40px;
+    padding: 0px 40px 40px 40px !important;
+    margin-top: 75px !important;
+}
+
+.tech-container {
+    border-radius: 40px;
+    padding: 60px 40px 0px 40px !important;
+    margin-top: 75px;
+    background: linear-gradient(90deg, var(--primary) -9.04%, var(--blue) 131.5%);
+}
+
+.o365-description-container {
+    padding-inline: 40px;
+    margin-top: 75px !important;
+}

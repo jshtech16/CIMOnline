@@ -1,0 +1,105 @@
+.slide-container {
+    border-radius: 40px;
+    padding: 20px 40px 60px 40px !important;
+    margin-top: 75px !important;
+}
+
+.app-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-slider-indicator {
+    position: relative !important;
+    left: 0px;
+    top: 0px;
+    display: block !important;
+    width: 60px;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+
+.app-slider-indicator .active p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.app-slider-indicator .active .carousel-indicators-max {
+    top: 0px;
+}
+
+.app-slider-subindicator {
+    background-color: transparent !important;
+    text-indent: 1px !important;
+    display: flex;
+    width: 4px !important;
+    height: 60px !important;
+    position: relative;
+    font-size: 20px;
+}
+
+.carousel-indicators-max {
+    position: absolute;
+    display: flex;
+    top: 12px;
+}
+
+.carousel-indicators-max .fa-circle {
+    font-size: 8px;
+}
+
+.carousel-indicators-min {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+}
+
+.app-slide-indicator-arrow {
+    display: none;
+    position: absolute;
+    bottom: -50px;
+}
+
+@media (max-width: 1200px) {
+    .app-slider {
+        display: block;
+        position: relative;
+    }
+
+    .app-slider-indicator {
+        position: absolute !important;
+        top: auto;
+        bottom: -70px !important;
+        height: fit-content !important;
+    }
+
+    .app-slide-indicator-arrow {
+        display: inherit;
+    }
+
+    .carousel-indicators-max {
+        display: none;
+    }
+    
+    .carousel-indicators-min {
+        display: inherit;
+    }
+
+    .app-slider-subindicator {
+        display: none;
+    }
+
+    .app-slider-indicator .active {
+        display: inherit;
+    }
+
+    .app-slider-indicator .active p {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .app-slider .carousel-item h2 {
+        font-size: 27px !important;
+    }
+}

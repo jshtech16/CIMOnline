@@ -1,0 +1,34 @@
+.watch-knowledge {
+    height: 250px;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.watch-knowledge:hover {
+    height: 250px;
+    opacity: 0.7;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.watch-video-title {
+    width: 100%;
+    height: 100%;
+}
+
+.watch-video-title:hover {
+    background: rgba(255, 255, 255, 0.1);
+    display: inherit !important;
+}
+
+.download-knowcenter-container {
+    border-radius: 40px;
+    padding: 60px 40px !important;
+    margin-top: 75px;
+}
+
+.whitepaper-chd-content {
+    border-radius: 15px;
+}
